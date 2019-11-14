@@ -126,7 +126,7 @@
                             <li class="address">Don't hesitate to give us a call or send us a message</li>
                             <li><i class="fas fa-map-marker-alt"></i>4 Charles St, Boston, MA 02116, US</li>
                             <li><i class="fas fa-phone"></i><a class="turquoise" href="tel:003024630820">+254 (0)7 25 892 328</a></li>
-                            <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:sstephenshifoko@gmail.com">stephenshifoko@gmail.com</a></li>
+                            <li><i class="fas fa-envelope"></i><a class="turquoise" href="mailto:stephenshifoko@gmail.com">stephenshifoko@gmail.com</a></li>
                         </ul>
                     </div> <!-- end of col -->
                 </div> <!-- end of row -->
@@ -137,6 +137,7 @@
                         </div>
                     </div> <!-- end of col -->
                     <div class="col-lg-6">
+
                         
                         <!-- Contact Form -->
                         <form id="contactForm" data-toggle="validator" data-focus="false">
@@ -172,6 +173,40 @@
                 </div> 
             </div>
         </div> 
+        <div class="col-lg-12">
+                        
+                        
+                <!-- Contact Form -->
+                <form id="contactForm" data-toggle="validator" data-focus="false">
+                    <div class="form-group">
+                        <input type="text" class="form-control-input" id="cname" required>
+                        <label class="label-control" for="cname">Name</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control-input" id="cemail" required>
+                        <label class="label-control" for="cemail">Email</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                        <label class="label-control" for="cmessage">Your message</label>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree with Evolo's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="form-control-submit-button">SUBMIT MESSAGE</button>
+                    </div>
+                    <div class="form-message">
+                        <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                    </div>
+                </form>
+                <!-- end of contact form -->
+
+            </div> 
         <!-- end of contact -->
         <!-- Footer -->
         <div class="footer">
