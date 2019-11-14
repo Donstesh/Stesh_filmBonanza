@@ -4,42 +4,6 @@
    Description: CSS file
 */
 
-/*****************************************
-Table Of Contents:
-
-01. General Styles
-02. Preloader
-03. Navigation
-04. Header
-05. Customers
-06. Services
-07. Details 1
-08. Details 2
-09. Details Lightboxes
-10. Pricing
-11. Request
-12. Video
-13. Testimonials
-14. About
-15. Contact
-16. Footer
-17. Copyright
-18. Back To Top Button
-19. Extra Pages
-20. Media Queries
-******************************************/
-
-/*****************************************
-Colors:
-- Backgrounds - turquoise #00bfd8
-- Backgrounds - blue #0079f9
-- Backgrounds - light gray #f7fcfd
-- Buttons, bullets, icons, links - turquoise #00bfd8
-- Cards border, inputs border - light gray #c4d8dc
-- Text headers, navbar links - black #393939
-- Text body - black #626262
-******************************************/
-
 
 /******************************/
 /*     01. General Styles     */
@@ -583,11 +547,11 @@ input[type='checkbox'] {
 
 .spinner {
 	position: absolute;
-	top: 50%; /* centers the loading animation vertically one the screen */
-	left: 50%; /* centers the loading animation horizontally one the screen */
+	top: 50%; 
+	left: 50%; 
 	width: 3.75rem;
 	height: 1.25rem;
-	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
+	margin: -0.625rem 0 0 -1.875rem; 
 	text-align: center;
 }
 
@@ -669,7 +633,7 @@ input[type='checkbox'] {
 
 /* Dropdown Menu */
 .navbar-custom .dropdown:hover > .dropdown-menu {
-	display: block; /* this makes the dropdown menu stay open while hovering it */
+	display: block; 
 	min-width: auto;
 	animation: fadeDropdown 0.2s; /* required for the fade animation */
 }
@@ -775,119 +739,6 @@ input[type='checkbox'] {
 
 .header .p-large {
 	margin-bottom: 1.875rem;
-}
-
-
-/*************************/
-/*     05. Customers     */
-/*************************/
-.slider-1 {
-	padding-top: 2.25rem;
-	padding-bottom: 2.125rem;
-	text-align: center;
-}
-
-.slider-1 h5 {
-	margin-bottom: 0.75rem;
-}
-
-.slider-1 .slider-container {
-	padding-top: 2.75rem;
-	padding-bottom: 2.75rem;
-	border-radius: 0.5rem;
-	background-color: #f7fcfd;
-}
-
-
-/************************/
-/*     06. Services     */
-/************************/
-.cards-1 {
-	padding-top: 4rem;
-	padding-bottom: 1.625rem;
-	text-align: center;
-}
-
-.cards-1 h2 {
-	margin-bottom: 1rem;
-}
-
-.cards-1 .card {
-	max-width: 21rem;
-	margin-right: auto;
-	margin-bottom: 4.5rem;
-	margin-left: auto;
-	padding: 3.25rem 2rem 2rem 2rem;
-	border: 1px solid #c4d8dc;
-	border-radius: 0.5rem;
-	background: transparent;
-}
-
-.cards-1 .card-image {
-	width: 6rem;
-	height: 6rem;
-	margin-right: auto;
-	margin-bottom: 2rem;
-	margin-left: auto;
-}
-
-.cards-1 .card-title {
-	margin-bottom: 0.875rem;
-}
-
-.cards-1 .card-body {
-	padding: 0;
-}
-
-
-/*************************/
-/*     07. Details 1     */
-/*************************/
-.basic-1 {
-	padding-top: 1.625rem;
-	padding-bottom: 3.75rem;
-}
-
-.basic-1 .text-container {
-	margin-bottom: 4rem;
-}
-
-.basic-1 h2 {
-	margin-bottom: 1.375rem;
-}
-
-.basic-1 .btn-solid-reg {
-	margin-top: 0.625rem;
-}
-
-
-/*************************/
-/*     08. Details 2     */
-/*************************/
-.basic-2 {
-	padding-top: 3.75rem;
-	padding-bottom: 4rem;
-}
-
-.basic-2 .image-container {
-	margin-bottom: 4rem;
-}
-
-.basic-2 h2 {
-	margin-bottom: 1.375rem;
-}
-
-.basic-2 .list-unstyled .fas {
-	color: #00bfd8;
-	line-height: 1.375rem;
-}
-
-.basic-2 .list-unstyled .media-body {
-	margin-left: 0.625rem;
-}
-
-.basic-2 .btn-solid-reg {
-	margin-top: 0.625rem;
 }
 
 /*********************/
@@ -1406,82 +1257,6 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 
-
-	/* Services */
-	.cards-1 .card {
-		display: inline-block;
-		max-width: 17.125rem;
-		vertical-align: top;
-	}
-
-	.cards-1 .col-lg-12 div.card:nth-child(3n+2) {
-		margin-right: 2rem;
-		margin-left: 2rem;
-	}
-	/* end of services */
-
-
-	/* Details 1 */
-	.basic-1 .text-container {
-		margin-top: 3.875rem;
-		margin-bottom: 0;
-	}
-	/* end of details 1 */
-
-
-	/* Details 2 */
-	.basic-2 .image-container {
-		margin-bottom: 0;
-	}
-
-	.basic-2 .text-container {
-		margin-top: 3.125rem;
-	}
-	/* end of details 2 */
-
-
-	/* Details Lightboxes */
-	.lightbox-basic {
-		max-width: 62.5rem;
-		padding: 2.5rem 2.5rem 2.5rem 2.5rem;
-	}
-
-	.lightbox-basic .image-container {
-		max-width: 100%;
-		margin-right: 2rem;
-		margin-bottom: 0;
-		margin-left: 0.5rem;
-	}
-	
-	.lightbox-basic h3 {
-		margin-top: 0.5rem;
-	}
-	/* end of details lightboxes */
-
-
-	/* Pricing */
-	.cards-2 .card {
-		display: inline-block;
-		width: 17.125rem;
-		max-width: 100%;
-		margin-right: 1rem;
-		margin-left: 1rem;
-	}
-	/* end of pricing */
-
-
-	/* Request */
-	.form-1 {
-		padding-top: 7.5rem;
-	}
-
-	.form-1 .text-container {
-		margin-top: 1.5rem;
-		margin-bottom: 0;
-	}
-	/* end of request */
-
-
 	/* Video */
 	.basic-3 .image-container {
 		max-width: 53.125rem;
@@ -1562,17 +1337,6 @@ a:hover.back-to-top {
 	}
 	/* end of header */
 	
-
-	/* Customers */
-	.slider-1 .slider-container {
-		margin-right: 3rem;
-		margin-left: 3rem;
-		padding-right: 2.5rem;
-		padding-left: 2.5rem;
-	}
-	/* end of customers */
-
-
 	/* Services */
 	.cards-1 .card {
 		max-width: 21rem;
@@ -1602,42 +1366,11 @@ a:hover.back-to-top {
 	}
 	/* end of details 2 */
 
-
-	/* Pricing */
-	.cards-2 .card {
-		width: 19.5rem;
-		margin-right: 1.625rem;
-		margin-left: 1.625rem;
-	}
-	/* end of pricing */
-
-
-	/* Request */
-	.form-1 .text-container {
-		margin-right: 1.5rem;
-		margin-left: 6rem;
-	}
-
-	.form-1 form {
-		margin-right: 6rem;
-		margin-left: 1.5rem;
-	}
-	/* end of request */
-
-
 	/* Video */
 	.basic-3 p {
 		width: 55%;
 	}
 	/* end of video */
-
-
-	/* Testimonials */
-	.slider-2 h2 {
-		margin-top: 3.5rem;
-	}
-	/* end of testimonials */
-
 
 	/* About */
 	.basic-4 .team-member {
@@ -1677,22 +1410,4 @@ a:hover.back-to-top {
 		margin-left: auto;
 	}
 	/* end of footer */
-
-
-	/* Extra Pages */
-	.ex-header h1 {
-		width: 60%;
-		margin-right: auto;
-		margin-left: auto;
-	}
-
-	.ex-basic-2 .form-container {
-		margin-left: 1.75rem;
-	}
-
-	.ex-basic-2 .image-container-small {
-		margin-left: 1.75rem;
-	}
-	/* end of extra pages */
 }
-/* end of min-width width 1200px */
