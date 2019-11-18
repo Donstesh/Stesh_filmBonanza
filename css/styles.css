@@ -1248,6 +1248,7 @@ a:hover.back-to-top {
 	.header {
 		background: url('../assets/header-background.jpg') center center no-repeat;
 		background-size: cover;
+		opacity: 90%;
 		 
 	}
 
@@ -1273,27 +1274,6 @@ a:hover.back-to-top {
 		width: 65%;
 	}
 	/* end of video */
-	
-
-	/* Testimonials */
-	.slider-2 {
-		padding-bottom: 7.5rem;
-	}
-
-	.slider-2 .image-container {
-		margin-bottom: 0;
-	}
-
-	.slider-2 .slider-container {
-		width: 88%;
-	}
-
-	.slider-2 .swiper-container {
-		width: 82%;
-	}
-	/* end of testimonials */
-
-
 	/* Contact */
 	.form-2 .map-responsive {
 		margin-bottom: 0;
