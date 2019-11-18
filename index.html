@@ -32,7 +32,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="logo"></a>
             
             <!-- Mobile Menu Toggle Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,45 +47,33 @@
                         <a class="nav-link page-scroll" href="#header">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#services">Services</a>
+                        <a class="nav-link page-scroll" href="#services">Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+                        <a class="nav-link page-scroll" href="#pricing">Schedules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link page-scroll" href="#request">Request</a>
+                        <a class="nav-link page-scroll" href="#request">Register</a>
                     </li>
-    
-                    <!-- Dropdown Menu -->          
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle page-scroll" href="#about" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">About</a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="terms-conditions.html"><span class="item-text">Terms Conditions</span></a>
-                            <div class="dropdown-items-divide-hr"></div>
-                            <a class="dropdown-item" href="privacy-policy.html"><span class="item-text">Privacy Policy</span></a>
-                        </div>
-                    </li>
-                    <!-- end of dropdown menu -->
-    
                     <li class="nav-item">
                         <a class="nav-link page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://facebook.com">
                             <i class="fas fa-circle fa-stack-2x facebook"></i>
                             <i class="fab fa-facebook-f fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                        <a href="#your-link">
+                        <a href="https://twitter.com">
                             <i class="fas fa-circle fa-stack-2x twitter"></i>
                             <i class="fab fa-twitter fa-stack-1x"></i>
                         </a>
                     </span>
                     <span class="fa-stack">
-                            <a href="#your-link">
+                            <a href="https://instagram.com">
                                 <i class="fas fa-circle fa-stack-2x instagram"></i>
                                 <i class="fab fa-instagram fa-stack-1x"></i>
                             </a>
@@ -107,8 +95,42 @@
                             </div> 
                         </div> 
                         <div class="col-lg-6">
-                            <div class="image-container">
-                                <img class="img-fluid" src="assets/header.jpg" alt="alternative">
+                            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                    <div class="image-container">
+                                        <img class="img-fluid" src="assets/image1.jpg" alt="alternative">
+                                    </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                    <div class="image-container">
+                                            <img class="img-fluid" src="assets/image2.jpg" alt="alternative">
+                                    </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                    <div class="image-container">
+                                            <img class="img-fluid" src="assets/image3.jpg" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-container">
+                                            <img class="img-fluid" src="assets/image4.jpg" alt="alternative">
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="image-container">
+                                            <img class="img-fluid" src="assets/image5.jpg" alt="alternative">
+                                    </div>
+                                </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div> 
                         </div> 
                     </div>
@@ -173,10 +195,9 @@
                 </div> 
             </div>
         </div> 
-        <div class="col-lg-12">
-                        
-                        
-                <!-- Contact Form -->
+        <div class="row">
+        <div class="col-lg-6 col-centered">
+            <!-- Contact Form -->
                 <form id="contactForm" data-toggle="validator" data-focus="false">
                     <div class="form-group">
                         <input type="text" class="form-control-input" id="cname" required>
@@ -194,7 +215,7 @@
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group checkbox">
-                        <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree with Evolo's stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
+                        <input type="checkbox" id="cterms" value="Agreed-to-Terms" required>I have read and agree with stated <a href="privacy-policy.html">Privacy Policy</a> and <a href="terms-conditions.html">Terms Conditions</a> 
                         <div class="help-block with-errors"></div>
                     </div>
                     <div class="form-group">
@@ -205,7 +226,7 @@
                     </div>
                 </form>
                 <!-- end of contact form -->
-
+            </div>
             </div> 
         <!-- end of contact -->
         <!-- Footer -->
@@ -214,22 +235,15 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="footer-col">
-                                <h4>About Evolo</h4>
-                                <p>We're passionate about offering some of the best business growth services for startups</p>
+                                <h4>About FilmFestBonanza</h4>
+                                <p>We're passionate about offering some of the best films and movies in an open field a first in history</p>
                             </div>
                         </div> <!-- end of col -->
                         <div class="col-md-4">
                             <div class="footer-col middle">
                                 <h4>Important Links</h4>
                                 <ul class="list-unstyled li-space-lg">
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Our business partners <a class="turquoise" href="#your-link">startupguide.com</a></div>
-                                    </li>
-                                    <li class="media">
-                                        <i class="fas fa-square"></i>
-                                        <div class="media-body">Read our <a class="turquoise" href="terms-conditions.html">Terms & Conditions</a>, <a class="turquoise" href="privacy-policy.html">Privacy Policy</a></div>
-                                    </li>
+        
                                 </ul>
                             </div>
                         </div> 

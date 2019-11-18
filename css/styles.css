@@ -971,6 +971,10 @@ input[type='checkbox'] {
 	height: 100%;
 	border: none; 
 }
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
 
 
 /**********************/
@@ -1242,8 +1246,9 @@ a:hover.back-to-top {
 
 	/* Header */
 	.header {
-		background: url('../assets/header-background.png') center center no-repeat;
-		background-size: cover; 
+		background: url('../assets/header-background.jpg') center center no-repeat;
+		background-size: cover;
+		 
 	}
 
 	.header .header-content {
