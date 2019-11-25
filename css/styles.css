@@ -798,7 +798,7 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background-color: #fff;
+	background: url('../assets/header-background.jpg') center center no-repeat;
 }
 
 .header .header-content {
@@ -873,7 +873,7 @@ input[type='checkbox'] {
 	width: 4.75rem;
 	height: 4.75rem;
 	border-radius: 50%;
-	background: #00bfd8;
+	background: #00bbb4;
 	animation: pulse-border 1500ms ease-out infinite;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -890,7 +890,7 @@ input[type='checkbox'] {
 	width: 4.375rem;
 	height: 4.375rem;
 	border-radius: 50%;
-	background: #00bfd8;
+	background: #00bbb4;
 	transition: all 200ms;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	-ms-transform: translateX(-50%) translateY(-50%);
@@ -1119,7 +1119,7 @@ input[type='checkbox'] {
 
 .copyright .p-small {
 	padding-top: 1.375rem;
-	border-top: 1px solid #c4d8dc;
+	border-top: 1px solid #00bbb4;
 	opacity: 0.7;
 }
 
